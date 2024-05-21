@@ -229,7 +229,7 @@ autoCompleteInputTag.addEventListener("keyup" , (event) => {
   }
 });
 
-let indexToSelect = -1;
+let indexToSelect = -1; //ဘယ် Product ကိုမှ  select မလုပ်ရသေးလို့ -1 ပေး
 const nevigateAndSelectProduct = (key) => {
   if (key === "ArrowDown") {
     if (indexToSelect === filterProduct.length -1) {
